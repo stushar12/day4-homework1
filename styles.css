@@ -1,85 +1,24 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Itim', cursive;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(207, 240, 158);
 }
 
-.background {
-    background-color: #f5e1ca;
-    height: 100vh;
-    padding-top: 1px;
-}
 
-.title {
-    color: black;
+table#game td {
+    background-color:darksalmon;
+    height: 100px;
+    width: 100px;
+    border: solid black 5px;
+    border-radius: 10px;
     text-align: center;
-    font-size: 40px;
-    margin-top: 10%;
+    font-weight: bold;
+    font-size: 30pt;
 }
 
-.display {
-    color: black;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-.hide 
-{
-    display: none;
-}
-
-.container {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 33% 33% 33%;
-    max-width: 300px;
-
-}
-
-.tile {
-    border: 1px ridge black;
-    min-width: 100px;
-    min-height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    cursor: pointer;
-}
-
-.playerX {
-    color: #ec49fb;
-}
-
-.playerO {
-    color: #498AFB;
-}
-
-.controls {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1em;
-}
-
-.controls button {
-    color: black;
+button#restart {
     padding: 8px;
-    border-radius: 8px;
-    border: none;
-    font-size: 20px;
-    margin-left: 1em;
-    cursor: pointer;
-}
-
-.restart {
-    background-color: #498AFB;
-}
-
-#reset {
-    background-color: #30d67b;
+    background-color: lightslategray;
+    font-size: 20pt;
+    color: white;
+    border-radius: 15px;
 }
