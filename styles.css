@@ -13,6 +13,7 @@ table#game td {
     text-align: center;
     font-weight: bold;
     font-size: 30pt;
+    cursor: pointer;  
 }
 
 button#restart {
