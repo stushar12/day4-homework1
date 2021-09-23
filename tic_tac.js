@@ -109,9 +109,10 @@ function boxClicked(row, col) {
   isDiagCaptured(row, col)
   }
 
-  if(game.move==9)
+  if(game.move==9 && game.state==STARTED)
   {
     alert("Draw")
+    game.state=ENDED;
   }
   
 }
